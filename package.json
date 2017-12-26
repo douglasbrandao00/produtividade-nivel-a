@@ -1,8 +1,8 @@
 {
   "name": "produtividade-nivel-a",
   "version": "0.0.1",
-  "description": "Aplição para ajudar a aumentar a produtividade das pessoas",
-  "main": "app.js",
+  "description": "Aplição para ajudar a aumentar a produtividade das pessoas :D",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,19 +11,18 @@
     "url": "git+https://github.com/douglasbrandao00/produtividade-nivel-a.git"
   },
   "keywords": [
-    "Mongo",
-    "Express",
-    "Angular4",
-    "Nodejs"
+    "nodeJs",
+    "express",
+    "produtividade"
   ],
-  "author": "Douglas Brandão, Luan Portela",
-  "license": "MIT",
+  "author": "Douglas Brandão",
+  "license": "WTFPL",
   "bugs": {
     "url": "https://github.com/douglasbrandao00/produtividade-nivel-a/issues"
   },
   "homepage": "https://github.com/douglasbrandao00/produtividade-nivel-a#readme",
   "dependencies": {
     "express": "^4.16.2",
-    "mongoose": "^4.12.4"
+    "mysql": "^2.15.0"
   }
 }
