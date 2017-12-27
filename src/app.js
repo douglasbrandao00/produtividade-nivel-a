@@ -1,9 +1,14 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const path = require('path');
+
+const routes = require('./routes');
 
 const app = express();
-app.use(bodyParser.json());
+app.set('view engine', 'ejs');
+app.set('views', __dirname + '/public');
 
-app.get('/', (req, res) => res.send('hahahahahahah'));
+app.use(bodyParser.json());
+app.use('/', routes);
 
 module.exports = app;
